@@ -1,0 +1,173 @@
+body{
+	background: #f4f2ec url(../imagens/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#logo h1{
+	float: left;
+}
+
+#logo a{
+	width: 248px;
+	height: 21px;
+	text-indent: -9999px;
+	display: block;
+	background: url(../imagens/logo.png) no-repeat;
+}
+
+header{
+	padding: 15px;
+	height: 55px;
+}
+
+nav ul{
+	list-style: none;
+	margin: 20px;
+	float: right;
+}
+
+nav ul li{
+	float: left;
+}
+
+a:link, a:active, a:visited{
+	color: #af670a;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #fff;
+}
+
+nav ul li a:link{
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 4px;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover{
+	border-bottom: 2px solid #535858
+}
+
+#principal{
+	float: center;
+	margin: 0 auto;
+}
+
+#conteudo{
+	width: 65%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+aside{
+	width: 32%;
+	float: right;
+	background: #ebe7dd;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+section#visita{
+	background: #cdc8b1;
+	padding: 10px  27px 27px 27px;
+	margin-top: 10px;
+}
+h4{
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+}
+
+input{
+	height: 20px;
+	background: #fff;
+	border: none;
+	font-size: 1em;
+	width: 80px;
+}
+
+input.campo{
+	border: 1px solid #ada484;
+}
+
+input.botao{
+	background: #9b9271;
+	color: #fff;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+}
+
+fieldset{
+	border: none;
+}
+
+legend{
+	display: none;
+}
+
+section#galeria a{
+	display: block;
+	background: url(../imagens/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 17px 15px 17px 15px;
+	margin: 10px 0px 0px 20px;
+}
+
+section#galeria img{
+	margin-left: 2px;
+	margin-top: 3px;
+}
+
+section#galeria{
+	padding: 0px 25px 0px 25px;
+}
+
+h3{
+	color: #227115;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+article#video{
+	float: left;
+	width: 310px;
+	margin-left: 25px;
+}
+
+article#mapa{
+	float: left;
+	width: 310px;
+	margin-left: 37px;
+}
+
+article#exposicoes{
+	float: left;
+	width: 310px;
+	margin: 15px 0px 0px 25px;
+}
+article#historia{
+	float: left;
+	width: 310px;
+	margin: 15px 0px 0px 37px;
+}
+
+footer{
+	clear: both;
+	padding: 20px 0px 30px 0px;
+	text-align: center;
+	background: url(../imagens/fundo-rodape.png) no-repeat center top;
+	margin-top: 20px;
+}
+footer>p a{
+	padding: 2px 10px;
+}
